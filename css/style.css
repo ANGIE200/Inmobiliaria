@@ -1,0 +1,225 @@
+body{
+	margin: 0;
+}
+header{
+	
+	width: 100%;
+
+	max-height: 70px;
+	position: fixed;
+    z-index: 3;
+}
+
+li{
+	padding-top: 0px;
+	color: white;
+	list-style: none;
+}
+header .logo{
+	background: #ffff;
+	padding:13px;
+}
+header img{
+	margin-left: 9%;
+	width: 10%;
+
+}
+.no_padding{
+	padding: 0 !important;
+}
+.no_margin{
+	margin:0 !important;
+}
+.parrafo{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+nav{
+position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+nav .menu{
+	width: 100%;
+	box-shadow: 1px 2px 4px grey;
+	text-align: right;
+
+}
+.navegacion{
+	margin-right: 20px auto;
+	color:#ffff;
+	
+
+}
+.navegacion ul{
+list-style: :none;
+
+}
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+.menu >li > a{
+	display: block;
+	padding: 15px 20px;
+	color:#040405;
+	text-decoration: none;
+	justify-content: space-between;
+	font-size: 13px;	
+	letter-spacing: 1px;
+
+}
+.menu li a:hover{
+	color: gray;
+	transition: all .3s;
+}
+.submenu{
+	position: absolute;
+	background: #3333;
+	display: none;
+
+}
+.submenu li a {
+	display: block;
+	margin:15px;
+	color: #ffff;
+	text-decoration: none; 
+
+}
+
+
+.menu li:hover .submenu{
+	display: block;
+	visibility: visible;
+	opacity: 1;
+}
+/*.menu li:hover .submenu{
+display: block;
+}*/
+
+
+#slider{
+	margin-bottom: 85px;
+}
+#texto img{
+width:100%;
+}	
+#texto ,.row{
+align-items: center;
+	
+}
+#casa img{
+	width: 100%;
+	border-radius: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#casa p{
+	color: #CE6809;
+	font-size: 16px;
+}
+#imb h1{
+	text-align: center;
+	padding-top: 30px;
+}
+#imb img{
+	width: 80%;
+	margin-top: 10%;
+}
+#imb p {
+	margin-top:10%; 
+}
+#imb{
+	padding-top:180px;
+	padding-bottom: 50px;
+}
+
+#banner img{
+	width: 100%;
+	margin-right:0;
+	margin-bottom: 60px;
+}
+#imagenes img{
+	width: 100%;
+}
+.mt-40{
+	margin-top: 40px;
+
+}
+
+.cont ,p{
+padding-bottom: 50px;
+}
+.cont2  h2{
+text-align: right;
+}
+.cont2 p{
+padding-bottom: 50px; 
+}
+#line{
+margin:8%;
+}
+#line h1,h2{
+	font-size: 30px;
+}
+.formulario{
+background-image: url(../img/banner2.jpg);
+width: 100%;
+height: 100%;
+padding-top: 13%; 
+background-size: cover;para que la imagen sea al 100
+								
+}
+.formulario h1{
+	 font-size:80px;
+	 font-family:"palace script mt" ;
+	 text-align: center;
+	 color: #ffff;	
+}
+.formulario:before{
+	content:'';
+	opacity:0.3;
+	background-color: #F1B83D;
+	position: absolute;
+	width: 100%;
+	height:95%;
+	z-index: 1;
+	top: 0; para que comience desde 0 de la parte de arriba,y leftt para que comience de 0 del lado
+	left:0;
+}
+.formulario *{
+	
+	position: relative; /*siempre tiene que llevar positon si quieres utilizar z-index*/
+	z-index: 3;
+}
+.form-group{
+	margin-left: 35%;
+	margin-right: 35%; 
+	}
+#cont img{
+	width: 50%;
+	}
+
+.boton{
+	margin-top: 50px;
+	padding-bottom: 49px;
+    margin-left: 25%;
+}
+#cont h1{
+	text-align: center;
+ 	font-weight: bold; 
+ 	padding-top: 15px; 
+ 	color: #CE6809; 
+}
+.pd_2 img {
+padding-bottom: 35px;
+padding-top: 50px;
+margin-left: 100px;	
+}
+.pd_3 img{
+	padding-bottom: 35px;	
+	margin-left: 100px;
+	padding-top: 50px;
+}
+
