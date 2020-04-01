@@ -311,6 +311,7 @@ max-width: 800px;
 	}
 .cent h1 p{
 text-align: center;
+padding:50px;
 }
 #serv{
 padding-top:50px ;
@@ -473,6 +474,15 @@ form {
 	color:#000;
 }
 @media(max-width:468px){
+	.layer h1 p{
+		padding:0 100px;	
+	}
+	.mx_w img{
+		margin-left:80px;
+	}
+	.cent{
+		padding: 0 20px;
+	}
 	.menu{
 		display:none;
 	}
