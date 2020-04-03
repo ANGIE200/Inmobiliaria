@@ -522,8 +522,9 @@ form {
 		display: flex;
 		width: 100%;
 		max-width: 80%;
-		padding: 35px 0;
+		padding: 35px 24px;
 		background: rgb(196, 195, 195);
+
 	}
 	.btn_form{
 	display: block;
@@ -608,6 +609,7 @@ form {
 	font-weight: bold;
 	font-size: 30px;
 	padding-top: 50px;
+	padding-bottom: 40px;
 }
 #badget img{
 	display: block;
@@ -635,7 +637,7 @@ form {
 	justify-content: center;
 	color:#fff;
 	}
-	#nav_body:before{
+#nav_body:before{
 		content:'';
 		opacity:0.4;
 		background-color: #000;
@@ -646,7 +648,7 @@ form {
 		top: 0; 
 		left:0;
 	}
-	#nav_body *{	
+#nav_body *{	
 		position: relative; 
 		z-index: 3;
 	}
@@ -655,10 +657,23 @@ form {
 	text-align: center;
 	color:#fff
 }
-.btn_nav{
-	background-color: rgb(67, 156, 216);
-	border:#fff;
+.control_btn{
+	padding:50px 0;
+}
+.button {
+    padding-top: 70px;
+}
+.btn_list{
+	background:#27a6dc;
+	border: 1px solid #27a6dc;
 	color:#fff;
+	margin: 40px;
+    padding: 21px 42px;
+}
+.btn_serch{
+	background: transparent;
+	padding: 21px 42px;
+	color: #fff;
 }
 	
 @media(max-width:468px){
@@ -721,5 +736,24 @@ form {
 		padding-top: 70px;
 	}
 	#menu_vent {
-		padding: 0px;
+		padding: 0px;}
+	.item_menu{
+		display: block;
+		width: 100%;
+		margin-left: 15px;
+	}
+	.form-control{
+		margin-bottom: 15px;
+	}
+	.btn_form{
+		margin: auto;
+	}
+	.flex{
+		display: block;
+		width: 100%;
+		margin-left: 15px;	
+	}
+	.image h4{
+ 		max-width: 100px;
+	}
 }
