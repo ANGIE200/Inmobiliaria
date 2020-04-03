@@ -291,7 +291,7 @@ color: #fff;
 		top: 0; 
 		left:0;
 	}
-	#m_v *{	
+#m_v *{	
 		position: relative; /*siempre tiene que llevar positon si quieres utilizar z-index*/
 		z-index: 3;}
 #m_v h1,h2{
@@ -308,7 +308,7 @@ margin-left: auto;
 margin-right: auto;
 max-width: 800px;
 	}
-	#center h1{
+#center h1{
 		margin-top:20px;
 		margin-bottom:25px;
 	}
@@ -479,6 +479,188 @@ form {
 .menu li:first-child{
 	display:none;
 }
+.home-propiedades{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around !important;
+}
+#home_menu {
+	background-image: url(../img/img-7.jpg);
+	width: 100%;
+	height: 100%;
+	padding-top: 4%; 
+	background-size: cover;		
+	position:relative;
+	text-align: center;
+	min-height: 100vh;
+	
+	align-items: center;
+	justify-content: center;
+	color:#fff;
+	}
+	#home_menu:before{
+		content:'';
+		opacity:0.3;
+		background-color: #000;
+		position: absolute;
+		width: 100%;
+		height:100%;
+		z-index: 1;
+		top: 0; 
+		left:0;
+	}
+	#home_menu *{	
+		position: relative; 
+		z-index: 3;
+	}
+	#home_menu h1{
+	font-size: 50px;
+	padding-top: 50px;
+	}
+	
+	.item_menu{
+		display: flex;
+		width: 100%;
+		max-width: 80%;
+		padding: 35px 0;
+		background: rgb(196, 195, 195);
+	}
+	.btn_form{
+	display: block;
+    width: 100%;
+    max-width: 100px;
+    border-radius: 5px;
+	border: 0;
+	margin: 0 20px;
+	}
+	.navbar{
+		margin-top:200px;
+	}
+	.flex{
+		display: flex;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		margin: auto;
+		background: #f5f6f7;
+		padding:50px
+	}
+	.image{
+		width:80%;
+		background: #fff;
+		margin-right: 20px;
+	}
+	.image img{
+		padding:50px;
+		max-width:100%;
+	}
+	.property{
+		width: 20%;
+		background:#fff;
+		padding:50px;
+	}
+	.property img{
+		width:50%;}
+	.image h3,h4{
+		text-align: left;
+		padding-bottom: 10px;
+		color:#092c61;
+		font-weight :bold;
+	}
+	.image p{
+	padding-bottom: 10px;
+	color: #737576;
+	}
+	.pad_blog{
+		padding:0 55px;
+	}
+	#menu_vent{
+		padding:100px;
+	}
+ #menu_vent img{
+	 width: 100%;
+ }
+ #menu_vent h5{
+	 color:#092c61 ;
+	 font-weight: bold;
+	 text-align: center;
+	 font-size: 30px;
+	 padding-top:50px;
+	 padding-bottom: 35px;
+ }
+ #menu_vent p{
+	padding: 25px 20px;
+	background: #fff;
+ }
+ .cl_back{
+	 background:#f5f6f7 ;
+ }
+#carousel h3{
+	text-align: center;
+	color: #092c61;
+	font-weight: bold;
+	font-size: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#badget h4{
+	text-align: center;
+	color: #092c61;
+	font-weight: bold;
+	font-size: 30px;
+	padding-top: 50px;
+}
+#badget img{
+	display: block;
+    margin: auto;
+}
+#badget{
+	background: #fff;
+	padding-bottom: 50px;
+    padding-top: 50px
+}
+#badget p{
+	color:#737576;
+
+}
+#nav_body {
+	background-image: url(../img/img-7.jpg);
+	width: 100%;
+	height: 100%;
+	padding-top: 4%; 
+	background-size: cover;		
+	position:relative;
+	text-align: center;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	color:#fff;
+	}
+	#nav_body:before{
+		content:'';
+		opacity:0.4;
+		background-color: #000;
+		position: absolute;
+		width: 100%;
+		height:100%;
+		z-index: 1;
+		top: 0; 
+		left:0;
+	}
+	#nav_body *{	
+		position: relative; 
+		z-index: 3;
+	}
+#nav_body h6{
+	font-size: 40px;
+	text-align: center;
+	color:#fff
+}
+.btn_nav{
+	background-color: rgb(67, 156, 216);
+	border:#fff;
+	color:#fff;
+}
+	
 @media(max-width:468px){
 	.layer h1 p{
 		padding:0 100px;	
@@ -538,4 +720,6 @@ form {
 		padding: 0 20px;
 		padding-top: 70px;
 	}
+	#menu_vent {
+		padding: 0px;
 }
